@@ -60,6 +60,7 @@ extern void RegisterGRUNodeExec(void);
 extern void RegisterPooling_NodeExec(void);
 extern void RegisterBatchNorm_NodeExec(void);
 extern void RegisterScale_NodeExec(void);
+extern void RegisterUpSample_NodeExec(void);
 
 extern void RegisterCommonFusedBNScaleReluNodeExec(void);
 
@@ -97,6 +98,7 @@ void RegisterCommonOps(void)
     RegisterGRUNodeExec();
 #endif
     RegisterPooling_NodeExec();
+    RegisterUpSample_NodeExec();
     RegisterBatchNorm_NodeExec();
     RegisterScale_NodeExec();
 

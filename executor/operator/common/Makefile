@@ -19,6 +19,7 @@ obj-y+=relu6.o
 obj-y+=relu.o
 obj-y+=resize.o
 obj-y+=pooling.o
+obj-y+=upsample.o
 obj-y+=batchnorm.o
 obj-y+=scale.o
 obj-y+=logistic.o

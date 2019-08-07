@@ -23,6 +23,7 @@ obj-y+=normalize.o
 obj-y+=pad.o
 obj-y+=permute.o
 obj-y+=pooling.o
+obj-y+=upsample.o
 obj-y+=prelu.o
 obj-y+=priorbox.o
 obj-y+=reduction.o
@@ -45,3 +46,4 @@ obj-y+=swap_axis.o
 obj-y+=tanh.o
 obj-y+=gru.o
 obj-y+=stridedslice.o
+

@@ -28,6 +28,7 @@
 #include "operator/convolution.hpp"
 #include "operator/input_op.hpp"
 #include "operator/pooling.hpp"
+#include "operator/upsample.hpp"
 #include "operator/softmax.hpp"
 #include "operator/fully_connected.hpp"
 #include "operator/split.hpp"
@@ -79,6 +80,7 @@ int operator_plugin_init(void)
     RegisterOp<Convolution>("Convolution");
     RegisterOp<InputOp>("InputOp");
     RegisterOp<Pooling>("Pooling");
+    RegisterOp<UpSample>("UpSample");
     RegisterOp<Softmax>("Softmax");
     RegisterOp<FullyConnected>("FullyConnected");
     RegisterOp<Accuracy>("Accuracy");
